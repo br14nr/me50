@@ -1,0 +1,38 @@
+$H1color: green;
+$linkcolor: #9999ff;
+$tablecolor: white;
+$tablebcolor: blue;
+%font {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  }
+h1 { color: $H1color; text-align: left; }
+
+@media (max-width: 999px) {
+        body {
+            background-color: #e6f2ff;
+        }
+      }
+      @media (min-width:1000px) {
+                body {
+                    background-color: #ffffcc;
+                }
+
+
+              }
+
+div {
+
+      ul {
+          @extend %font;
+          color: $linkcolor;
+          }
+ .row     {
+          @extend %font;
+           padding: 20px;
+           background-color: $tablebcolor;
+           color: $tablecolor;
+           border: 2px solid black;
+      }
+  }

@@ -1,0 +1,44 @@
+
+
+h1 { color: green; text-align: left; }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@media (max-width: 999px) {
+                body {
+                    background-color: #e6f2ff;
+                }
+              }
+              @media (min-width:1000px) {
+                        body {
+                            background-color: #ffffcc;
+                        }
+                      }
+@media print {
+         .screen-only {
+             display: none;
+         }
+       }
+div { font-family: Arial, sans-serif;
+                             font-size: 22px;
+                             font-weight: bold;
+                           }
+
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .container > div {
+     background-color: springgreen;
+     font-size: 20px;
+     margin: 20px;
+     padding: 20px;
+     width: 200px;
+ }
+
+#table2 { <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+}
+.row > #table2 { background-color: blue;
+              color: white;
+              padding: 20px;
+              border: 2px solid black;
+          }
